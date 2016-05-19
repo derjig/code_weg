@@ -57,7 +57,7 @@ class tx_codeweg_pi1 extends \TYPO3\CMS\Frontend\Plugin\AbstractPlugin {
         
         $uid = $this->cObj->data['pages'] ? $this->cObj->data['pages'] : $GLOBALS['TSFE']->id;
         
-        $content = '<h2>Test Git 1</h2>';
+        $content = '<h2>Test Git 2</h2>';
         
         $linkConf ['parameter'] = $uid;
         $linkConf ['additionalParams'] = '&'.$this->prefixId.'[param]=xcv';  
